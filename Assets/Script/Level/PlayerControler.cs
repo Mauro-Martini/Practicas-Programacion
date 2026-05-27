@@ -6,12 +6,13 @@ public class PlayerControler : MonoBehaviour
     public Player player;
     public float jumpForce = 5f; // separado de speed
     public float speed = 7f;
-    private float lspeed;
-    private float rspeed;
+    public float lspeed;
+    public float rspeed;
     public bool onFloor = false;
     public bool LWall = false;
     public bool RWall = false;
     public bool jump = false;
+    public string[] tagsSuperficie = { "Suelo", "StickSuelo", "SlipperySuelo" };
     void Start()
     {
         lspeed = -speed;

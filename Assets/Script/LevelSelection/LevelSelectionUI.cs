@@ -6,9 +6,9 @@ public class LevelSelectionUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Button button;
     public Button button2;
-    void testPlay()
+    void ChargeScene(string nombreEscena)
     {
-        SceneManager.LoadScene("Testlevel");
+        SceneManager.LoadScene(nombreEscena);
     }
     void GoBack()
     {
@@ -18,6 +18,6 @@ public class LevelSelectionUI : MonoBehaviour
     void Start()
     {
         button2.onClick.AddListener(GoBack);
-        button.onClick.AddListener(testPlay);
+        button.onClick.AddListener(() => ChargeScene("TestLevel"));
     }
 }
