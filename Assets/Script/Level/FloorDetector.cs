@@ -72,6 +72,7 @@ public class FloorDetector : MonoBehaviour
 {
     public PlayerControler controler;
     public float Nspeed;
+    public WinControler wincontroler;
 
     void Start()
     {
@@ -80,17 +81,21 @@ public class FloorDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Suelo") || other.CompareTag("StickSuelo") || other.CompareTag("SlipperySuelo"))
+        if (System.Array.Exists(controler.tagsSuperficie, tag => tag == other.tag))
         {
             SuperficieFactory.Create(other.tag).OnEnter(controler);
+        } else if (other.CompareTag("WinPlace"))
+        {
+            wincontroler.Win();
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Suelo") || other.CompareTag("StickSuelo") || other.CompareTag("SlipperySuelo"))
+        if (System.Array.Exists(controler.tagsSuperficie, tag => tag == other.tag))
         {
             SuperficieFactory.Create(other.tag).OnExit(controler, Nspeed);
         }
     }
+
 }

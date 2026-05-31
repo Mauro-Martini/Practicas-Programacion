@@ -6,7 +6,9 @@ public class UIControler : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     
     public Slider pbar;
-    public Button button;
+    public Button Backpause;
+    public Button BackWin;
+
     public Player player;
 
     public float sliderV = 0.0f;
@@ -24,10 +26,12 @@ public class UIControler : MonoBehaviour
     }
     void Start()
     {
-        button.onClick.AddListener(GoBack);
+        BackWin.onClick.AddListener(GoBack);
+        Backpause.onClick.AddListener(GoBack);
     }
     void GoBack()
     {
         SceneManager.LoadScene("LevelSelection");
+        Time.timeScale = 1;
     }
 }

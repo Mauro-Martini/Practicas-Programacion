@@ -18,6 +18,6 @@ public class LevelSelectionUI : MonoBehaviour
     void Start()
     {
         button2.onClick.AddListener(GoBack);
-        button.onClick.AddListener(() => ChargeScene("TestLevel"));
+        button.onClick.AddListener(() => ChargeScene("Level1"));
     }
 }
