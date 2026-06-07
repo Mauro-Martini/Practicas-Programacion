@@ -8,6 +8,7 @@ TagManager:
   - StickSuelo
   - SlipperySuelo
   - WinPlace
+  - Pared
   layers:
   - Default
   - TransparentFX

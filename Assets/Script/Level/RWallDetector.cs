@@ -7,7 +7,7 @@ public class RWallDetector : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (System.Array.Exists(controler.tagsSuperficie, tag => tag == other.tag))
+        if (System.Array.Exists(controler.tagsPared, tag => tag == other.tag))
         {
             controler.RWall = true;
         }
@@ -15,7 +15,7 @@ public class RWallDetector : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (System.Array.Exists(controler.tagsSuperficie, tag => tag == other.tag))
+        if (System.Array.Exists(controler.tagsPared, tag => tag == other.tag))
         {
             controler.RWall = false;
         }

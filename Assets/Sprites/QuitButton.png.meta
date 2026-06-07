@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8eaef88182d7f1c4fa9ef188ba5d4a9e
+guid: 74c761605cf42b24494dfadc7f65fe0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7724074123776886010
-    second: Captura de pantalla 2026-06-03 203609_0
+      213: 8972595471496026232
+    second: Gemini_Generated_Image_m7cp76m7cp76m7cp-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,15 +40,15 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-06-03 203609_0
+      name: Gemini_Generated_Image_m7cp76m7cp76m7cp-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 29
-        width: 212
-        height: 91
+        x: 81
+        y: 91
+        width: 515
+        height: 187
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60bfd7122839ec490800000000000000
-      internalID: -7724074123776886010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura de pantalla 2026-06-03 203609_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 210
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffdeccc5080750448bec6626c9f34406
-      internalID: -1796916801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Captura de pantalla 2026-06-03 203609_2
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 0
-        width: 263
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ab968ea8c133a3488ec342b1eb1f1a8
-      internalID: 2127240750
+      spriteID: 8789ccfda00158c70800000000000000
+      internalID: 8972595471496026232
       vertices: []
       indices: 
       edges: []
@@ -182,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 055be26b77e31db48b6c0556baeb7f7e
+    spriteID: 7f9ac116858b2694ea483026f02d1720
     internalID: 0
     vertices: []
     indices: 
@@ -192,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-06-03 203609_0: -7724074123776886010
-      Captura de pantalla 2026-06-03 203609_1: -1796916801
-      Captura de pantalla 2026-06-03 203609_2: 2127240750
+      Gemini_Generated_Image_m7cp76m7cp76m7cp-removebg-preview_0: 8972595471496026232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

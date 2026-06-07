@@ -13,6 +13,8 @@ public class PlayerControler : MonoBehaviour
     public bool RWall = false;
     public bool jump = false;
     public string[] tagsSuperficie = { "Suelo", "StickSuelo", "SlipperySuelo" };
+    public string[] tagsPared = { "Pared" };
+
     void Start()
     {
         lspeed = -speed;
